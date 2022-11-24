@@ -1,0 +1,284 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    scroll-behavior: smooth;
+  }
+  
+  /* Navbar */
+  
+  nav {
+    border-bottom: 2px solid gray !important;
+  }
+  
+  nav:hover {
+    border-bottom: 2px solid black !important;
+    transition: 0.25s ease-in-out;
+  }
+  
+  .nav-link {
+    color: gray !Important;
+  }
+  
+  .nav-link:hover {
+    transition: 0.25s ease-in-out;
+    color: #007bff !Important;
+    font-weight: 400;
+  }
+  
+  .navbar-toggler {
+    border: 2px solid black !Important;
+  }
+  
+  .navbar-toggler:hover {
+    border: 2px solid black !Important;
+    transition: 0.25s ease-in-out;
+  }
+  
+  /* Header */
+  
+  .header1 {
+    height: 100%;
+    background-image: url("https://hdqwalls.com/wallpapers/new-york-taxi-wet-roads-tall-buildings-5k-5v.jpg");
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .caption {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #home .container {
+    padding-top: 15px;
+    background-color: rgba(0, 0, 0, 0.35);
+    color: white;
+  }
+  
+  /* Services */
+  
+  strong {
+    color: white;
+  }
+  
+  center h1 {
+    color: white;
+  }
+  
+  h2 {
+    text-decoration: underline;
+    color: white !important;
+  }
+  
+  .services {
+    text-align: center;
+  }
+  
+  .services i {
+    font-size: 24px;
+    padding: 15px 10px;
+    color: black;
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .services span{
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+  }
+  
+  .services p {
+    color: white;
+  }
+  
+  .header2 {
+    background: linear-gradient(to right, #000000, #04619F);
+    background-size: cover;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    height: 110%
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+     .header2 {
+       height: 260%
+     }
+   }
+  
+  /* Pricing */
+  
+  #pricing p {
+    color: white;
+  }
+  
+  .header3 {
+    background: linear-gradient(to right, #000000, #923CB5);
+    background-size: cover;
+    border-bottom: 1px solid white;
+    height: 100%
+  }
+  
+   @media (min-width: 320px) and (max-width: 767px) {
+     .header3 {
+       height: 360%
+     }
+   }
+  
+  @media (min-width: 767px) and (max-width: 1024px) {
+     .header3 {
+       height: 125%
+     }
+   }
+  
+  /* Team */
+  
+  .team p {
+    color: white;
+    font-size: 15px;
+  }
+  
+  .team {
+    text-align: center !Important;
+  }
+  
+  .team img{
+     width: 200px;
+     height: 200px;
+     object-fit: cover;
+     border-radius: 50%;
+     margin-bottom: 15px;
+  }
+  
+  .header4 {
+    background: linear-gradient(to right, #000000, #D22B2B);
+    background-size: cover;
+    border-bottom: 1px solid white;
+    height: 115%
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+     .header4 {
+       height: 510%
+     }
+   }
+  
+  @media (min-width: 767px) and (max-width: 1024px) {
+     .header4 {
+       height: 170%
+     }
+   }
+  
+  .team h3 {
+    font-size: 25px;
+    color: white;
+  }
+  
+  .team h4 {
+    font-size: 20px;
+    color: white;
+  }
+  
+  /* Trusted By */
+  
+  .trustedby p {
+    color: white;
+    font-size: 15px;
+  }
+  
+  .trustedby {
+    text-align: center !Important;
+  }
+  
+  .trustedby img{
+     width: 200px;
+     height: 200px;
+     object-fit: cover;
+     border-radius: 50%;
+     margin-bottom: 15px;
+  }
+  
+  .header5 {
+    background: linear-gradient(to right, #000000, #EC5800);
+    background-size: cover;
+    border-bottom: 1px solid white;
+    height: 100%
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+     .header5 {
+       height: 310%
+     }
+   }
+  
+  .trustedby h3 {
+    font-size: 25px;
+    color: white;
+  }
+  
+  /* Contact */
+  .contact {
+    margin-bottom: 80px;
+  }
+  
+  .contact P {
+    color: white;
+  }
+  
+  .contact .input-group {
+    margin-bottom: 25px;
+  }
+  
+  .contact i {
+    padding: 15px;
+  }
+  
+  .contact .btn {
+    border-radius: 5px;
+    width: 100%;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid #007bff;
+  }
+  
+  .contact .btn:hover {
+    color: white !important;
+    background-color: #007bff;
+    border: 1px solid black;
+    transition: 0.25s ease-in-out;
+  }
+  
+  .header6 {
+    background: linear-gradient(to right, #000000, #D2A813);
+    background-size: cover;
+    border-bottom: 1px solid white;
+    height: 100%
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+     .header6 {
+       height: 185%
+     }
+   }
+  
+  .icons {
+    color: white;
+  }
+  
+  /* Footer */
+  
+  .header7 {
+    background: linear-gradient(to right, #000000, #166D3B);
+    background-size: cover;
+    height: 110%
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+     .header7 {
+       height: 200%
+     }
+   }
